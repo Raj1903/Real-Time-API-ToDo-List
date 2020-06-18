@@ -1,0 +1,27 @@
+{
+  "name": "backend_api_todo",
+  "version": "1.0.0",
+  "description": "This contain Backend of realTimeToDo List with API and Documentation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pulkit Raj <contact@pulkitraj1903@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.26.0",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.8",
+    "pino": "^6.3.2",
+    "redis": "^3.0.2",
+    "shortid": "^2.2.14",
+    "socket.io": "^2.3.0"
+  }
+}
